@@ -18,7 +18,7 @@
 
     <groupId>com.metaring</groupId>
     <artifactId>framework-java-test-mysql-mock</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <name>MySQL Mock provider</name>
     <description>Provides a on-the-fly mock of a MySQL Database Server</description>
@@ -40,8 +40,8 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/metaring/framework-java.git</url>
-        <developerConnection>scm:git:git@github.com:metaring/framework-java.git</developerConnection>
+        <url>https://github.com/metaring/framework-java-test-mysql-mock.git</url>
+        <developerConnection>scm:git:git@github.com:metaring/framework-java-test-mysql-mock.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>framework-java-persistence</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>com.metaring</groupId>
